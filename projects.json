@@ -1,6 +1,116 @@
 [
-  {"slug":"formesmodulars","title":"Formes Modulars","desc":"Course notes on modular forms (in Catalan).","url":"https://mmasdeu.github.io/formesmodulars/"},
-  {"slug":"topologygame","title":"Topology Game","desc":"An interactive game to learn topology.","url":"https://mmasdeu.github.io/topologygame/"},
-  {"slug":"hilbertgame","title":"Hilbert Game","desc":"An interactive game exploring Hilbert's ideas.","url":"https://mmasdeu.github.io/hilbertgame/"},
-  {"slug":"darmonpoints","title":"Darmon Points","desc":"Sage package and documentation for computing Darmon points.","url":"https://mmasdeu.github.io/darmonpoints/doc/html/"}
+  {
+    "slug": "algebralineal",
+    "title": "algebralineal",
+    "desc": "Apunts d'Àlgebra Lineal",
+    "url": "https://mmasdeu.github.io/algebralineal/"
+  },
+  {
+    "slug": "analysis_roquette",
+    "title": "analysis_roquette",
+    "desc": "",
+    "url": "https://mmasdeu.github.io/analysis_roquette/"
+  },
+  {
+    "slug": "arxiv-email",
+    "title": "arxiv-email",
+    "desc": "A bot that sends HTML-formatted daily arXiV emails",
+    "url": "https://mmasdeu.github.io/arxiv-email/"
+  },
+  {
+    "slug": "biysc2021-notes",
+    "title": "biysc2021-notes",
+    "desc": "",
+    "url": "https://mmasdeu.github.io/biysc2021-notes/"
+  },
+  {
+    "slug": "brouwerfixedpoint",
+    "title": "brouwerfixedpoint",
+    "desc": "Proving Brouwer's Fixed Point Theorem in Lean",
+    "url": "https://mmasdeu.github.io/brouwerfixedpoint/"
+  },
+  {
+    "slug": "formesmodulars",
+    "title": "Formes Modulars",
+    "desc": "Course notes on modular forms (in Catalan).",
+    "url": "https://mmasdeu.github.io/formesmodulars/"
+  },
+  {
+    "slug": "hilbertgame",
+    "title": "Hilbert Game",
+    "desc": "An interactive game exploring Hilbert's ideas.",
+    "url": "https://mmasdeu.github.io/hilbertgame/"
+  },
+  {
+    "slug": "latex-course",
+    "title": "latex-course",
+    "desc": "An interactive introduction to LaTeX using Overleaf.",
+    "url": "https://mmasdeu.github.io/latex-course/"
+  },
+  {
+    "slug": "LeanBootcamp",
+    "title": "LeanBootcamp",
+    "desc": "",
+    "url": "https://mmasdeu.github.io/LeanBootcamp/"
+  },
+  {
+    "slug": "leancraftgame",
+    "title": "leancraftgame",
+    "desc": "",
+    "url": "https://mmasdeu.github.io/leancraftgame/"
+  },
+  {
+    "slug": "modularforms",
+    "title": "modularforms",
+    "desc": "Notes for Modular Forms (part of Advanced Number Theory, Master of Advanced Mathematics UAB/UB)",
+    "url": "https://mmasdeu.github.io/modularforms/"
+  },
+  {
+    "slug": "referendum1oct",
+    "title": "referendum1oct",
+    "desc": "Personal notes on how I lived October 1st, 2017 in Cerdanyola del Vallès (Catalunya)",
+    "url": "https://mmasdeu.github.io/referendum1oct/"
+  },
+  {
+    "slug": "sage_sample",
+    "title": "sage_sample",
+    "desc": "A sample project illustrating how to write and distribute SageMath extensions",
+    "url": "https://mmasdeu.github.io/sage_sample/"
+  },
+  {
+    "slug": "sage_sample_new",
+    "title": "sage_sample_new",
+    "desc": "A sage project template",
+    "url": "https://mmasdeu.github.io/sage_sample_new/"
+  },
+  {
+    "slug": "slideslftcm2023",
+    "title": "slideslftcm2023",
+    "desc": "Slides for talks at Lean for the Curious Mathematician 2023",
+    "url": "https://mmasdeu.github.io/slideslftcm2023/"
+  },
+  {
+    "slug": "teoriadegalois",
+    "title": "teoriadegalois",
+    "desc": "Apunts pel curs Teoria de Galois a la UAB",
+    "url": "https://mmasdeu.github.io/teoriadegalois/"
+  },
+  {
+    "slug": "topologygame",
+    "title": "Topology Game",
+    "desc": "An interactive game to learn topology.",
+    "url": "https://mmasdeu.github.io/topologygame/"
+  },
+  {
+    "slug": "tsunamidemocratic.github.io",
+    "title": "tsunamidemocratic.github.io",
+    "desc": "",
+    "url": "https://mmasdeu.github.io/tsunamidemocratic.github.io/"
+  },
+  {
+    "slug": "darmonpoints",
+    "title": "Darmon Points",
+    "desc": "Sage package and documentation for computing Darmon points.",
+    "url": "https://mmasdeu.github.io/darmonpoints/doc/html/"
+  }
 ]
