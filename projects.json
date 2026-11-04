@@ -1,0 +1,6 @@
+[
+  {"slug":"formesmodulars","title":"Formes Modulars","desc":"Course notes on modular forms (in Catalan).","url":"https://mmasdeu.github.io/formesmodulars/"},
+  {"slug":"topologygame","title":"Topology Game","desc":"An interactive game to learn topology.","url":"https://mmasdeu.github.io/topologygame/"},
+  {"slug":"hilbertgame","title":"Hilbert Game","desc":"An interactive game exploring Hilbert's ideas.","url":"https://mmasdeu.github.io/hilbertgame/"},
+  {"slug":"darmonpoints","title":"Darmon Points","desc":"Sage package and documentation for computing Darmon points.","url":"https://mmasdeu.github.io/darmonpoints/doc/html/"}
+]

@@ -1,17 +1,33 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-  </head>
-  <body>
-    <h1>Check this out:</h1>
-    <ul>
-      <li> <a href="https://mmasdeu.github.io/formesmodulars/">Formes Modulars</a> (in Catalan) </li>
-      <li> <a href="https://mmasdeu.github.io/topologygame/">Topology Game</a> </li>
-      <li> <a href="https://mmasdeu.github.io/hilbertgame/">Hilbert Game</a> </li>
-      <li> <a href="https://mmasdeu.github.io/darmonpoints/doc/html/">Darmon Points</a> </li>
-    </ul>
-    Or go to <a href="https://mat.uab.cat/~masdeu">my website</a> for more.
-  </body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Marc Masdeu — Projects</title>
+<style>
+:root{--bg:#fafaf9;--fg:#1c1917;--mut:#78716c;--card:#fff;--bd:#e7e5e4;--ac:#2563eb}
+@media(prefers-color-scheme:dark){:root{--bg:#0c0a09;--fg:#f5f5f4;--mut:#a8a29e;--card:#1c1917;--bd:#292524;--ac:#60a5fa}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:56px 16px}
+h1{font-size:2rem;margin:0}p.sub{color:var(--mut);margin:.25rem 0 2.5rem}p.sub a{color:var(--ac)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px}
+a.card{display:block;background:var(--card);border:1px solid var(--bd);border-radius:12px;overflow:hidden;color:inherit;text-decoration:none;transition:transform .15s,box-shadow .15s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.12)}
+.shot{aspect-ratio:16/10;background:linear-gradient(135deg,var(--ac),#7c3aed);display:grid;place-items:center;color:#fff;font-size:1.4rem;font-weight:600}
+.shot img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.body{padding:14px 16px 18px}.body h2{font-size:1.1rem;margin:0 0 4px}.body p{margin:0;color:var(--mut);font-size:.92rem}
+</style></head><body><main>
+<h1>Projects</h1>
+<p class="sub">Marc Masdeu · <a href="https://mat.uab.cat">mat.uab.cat</a> · <a href="https://github.com/mmasdeu">GitHub</a></p>
+<div class="grid" id="grid"></div>
+</main>
+<script>
+fetch('projects.json').then(r=>r.json()).then(ps=>{
+const g=document.getElementById('grid');
+for(const p of ps){
+const a=document.createElement('a');a.className='card';a.href=p.url;
+const s=document.createElement('div');s.className='shot';
+const i=new Image();i.alt='Screenshot of '+p.title;i.loading='lazy';i.src='shots/'+p.slug+'.jpg';
+i.onload=()=>{s.textContent='';s.appendChild(i)};s.textContent=p.title;
+const b=document.createElement('div');b.className='body';
+const h=document.createElement('h2');h.textContent=p.title;const d=document.createElement('p');d.textContent=p.desc;
+b.append(h,d);a.append(s,b);g.append(a);}
+});
+</script></body></html>
