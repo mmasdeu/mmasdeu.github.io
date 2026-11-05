@@ -18,18 +18,6 @@
     "url": "https://mmasdeu.github.io/arxiv-email/"
   },
   {
-    "slug": "biysc2021-notes",
-    "title": "biysc2021-notes",
-    "desc": "",
-    "url": "https://mmasdeu.github.io/biysc2021-notes/"
-  },
-  {
-    "slug": "brouwerfixedpoint",
-    "title": "brouwerfixedpoint",
-    "desc": "Proving Brouwer's Fixed Point Theorem in Lean",
-    "url": "https://mmasdeu.github.io/brouwerfixedpoint/"
-  },
-  {
     "slug": "formesmodulars",
     "title": "Formes Modulars",
     "desc": "Course notes on modular forms (in Catalan).",
@@ -40,12 +28,6 @@
     "title": "Hilbert Game",
     "desc": "An interactive game exploring Hilbert's ideas.",
     "url": "https://mmasdeu.github.io/hilbertgame/"
-  },
-  {
-    "slug": "latex-course",
-    "title": "latex-course",
-    "desc": "An interactive introduction to LaTeX using Overleaf.",
-    "url": "https://mmasdeu.github.io/latex-course/"
   },
   {
     "slug": "LeanBootcamp",
@@ -106,6 +88,24 @@
     "title": "tsunamidemocratic.github.io",
     "desc": "",
     "url": "https://mmasdeu.github.io/tsunamidemocratic.github.io/"
+  },
+  {
+    "slug": "biysc2021-notes",
+    "title": "biysc2021-notes",
+    "desc": "",
+    "url": "https://mmasdeu.github.io/biysc2021-notes/"
+  },
+  {
+    "slug": "brouwerfixedpoint",
+    "title": "brouwerfixedpoint",
+    "desc": "Proving Brouwer's Fixed Point Theorem in Lean",
+    "url": "https://mmasdeu.github.io/brouwerfixedpoint/"
+  },
+  {
+    "slug": "latex-course",
+    "title": "latex-course",
+    "desc": "An interactive introduction to LaTeX using Overleaf.",
+    "url": "https://mmasdeu.github.io/latex-course/"
   },
   {
     "slug": "darmonpoints",
