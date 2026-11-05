@@ -54,12 +54,6 @@
     "url": "https://mmasdeu.github.io/referendum1oct/"
   },
   {
-    "slug": "sage_sample",
-    "title": "sage_sample",
-    "desc": "A sample project illustrating how to write and distribute SageMath extensions",
-    "url": "https://mmasdeu.github.io/sage_sample/"
-  },
-  {
     "slug": "sage_sample_new",
     "title": "sage_sample_new",
     "desc": "A sage project template",
@@ -88,6 +82,12 @@
     "title": "tsunamidemocratic.github.io",
     "desc": "",
     "url": "https://mmasdeu.github.io/tsunamidemocratic.github.io/"
+  },
+  {
+    "slug": "sage_sample",
+    "title": "sage_sample",
+    "desc": "A sample project illustrating how to write and distribute SageMath extensions",
+    "url": "https://mmasdeu.github.io/sage_sample/"
   },
   {
     "slug": "biysc2021-notes",
