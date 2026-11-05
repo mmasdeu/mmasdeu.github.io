@@ -24,7 +24,7 @@ const g=document.getElementById('grid');
 for(const p of ps){
 const a=document.createElement('a');a.className='card';a.href=p.url;
 const s=document.createElement('div');s.className='shot';
-const i=new Image();i.alt='Screenshot of '+p.title;i.loading='lazy';i.src='shots/'+p.slug+'.jpg';
+const i=new Image();i.alt='Screenshot of '+p.title;i.src='shots/'+p.slug+'.jpg';
 i.onload=()=>{s.textContent='';s.appendChild(i)};s.textContent=p.title;
 const b=document.createElement('div');b.className='body';
 const h=document.createElement('h2');h.textContent=p.title;const d=document.createElement('p');d.textContent=p.desc;
