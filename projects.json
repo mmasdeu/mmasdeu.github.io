@@ -76,41 +76,5 @@
     "title": "Topology Game",
     "desc": "An interactive game to learn topology.",
     "url": "https://mmasdeu.github.io/topologygame/"
-  },
-  {
-    "slug": "tsunamidemocratic.github.io",
-    "title": "tsunamidemocratic.github.io",
-    "desc": "",
-    "url": "https://mmasdeu.github.io/tsunamidemocratic.github.io/"
-  },
-  {
-    "slug": "sage_sample",
-    "title": "sage_sample",
-    "desc": "A sample project illustrating how to write and distribute SageMath extensions",
-    "url": "https://mmasdeu.github.io/sage_sample/"
-  },
-  {
-    "slug": "biysc2021-notes",
-    "title": "biysc2021-notes",
-    "desc": "",
-    "url": "https://mmasdeu.github.io/biysc2021-notes/"
-  },
-  {
-    "slug": "brouwerfixedpoint",
-    "title": "brouwerfixedpoint",
-    "desc": "Proving Brouwer's Fixed Point Theorem in Lean",
-    "url": "https://mmasdeu.github.io/brouwerfixedpoint/"
-  },
-  {
-    "slug": "latex-course",
-    "title": "latex-course",
-    "desc": "An interactive introduction to LaTeX using Overleaf.",
-    "url": "https://mmasdeu.github.io/latex-course/"
-  },
-  {
-    "slug": "darmonpoints",
-    "title": "Darmon Points",
-    "desc": "Sage package and documentation for computing Darmon points.",
-    "url": "https://mmasdeu.github.io/darmonpoints/doc/html/"
   }
 ]
