@@ -18,6 +18,12 @@
     "url": "https://mmasdeu.github.io/arxiv-email/"
   },
   {
+    "slug": "cubic_twostage",
+    "title": "cubic_twostage",
+    "desc": "Certified 2-stage Euclideanity and continued fractions in complex cubic fields (code, data, paper)",
+    "url": "https://mmasdeu.github.io/cubic_twostage/"
+  },
+  {
     "slug": "formesmodulars",
     "title": "Formes Modulars",
     "desc": "Course notes on modular forms (in Catalan).",
@@ -34,6 +40,12 @@
     "title": "modularforms",
     "desc": "Notes for Modular Forms (part of Advanced Number Theory, Master of Advanced Mathematics UAB/UB)",
     "url": "https://mmasdeu.github.io/modularforms/"
+  },
+  {
+    "slug": "mpp",
+    "title": "mpp",
+    "desc": "Montserrat Pam a Pam",
+    "url": "https://mmasdeu.github.io/mpp/"
   },
   {
     "slug": "referendum1oct",
